@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body > div > nav > div > a {
+    margin: 0 10px;
+}
+
+div.container-image > img { 
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) { 
+    h1 {
+        font-size: 18px;
+    }
+}
+
+body {
+    background-image: url('../img/bg1.jpg'); 
+    background-repeat: repeat;
+}
+
+div > h1 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body > div > nav > div > a > h4 { 
+    color: rgb(182, 182, 182);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.article-block { 
+    background: #fff; 
+    color: #383838;
+    font-family: 'Ubuntu', sans-serif; 
+    box-shadow: 2px 2px 8px rgb(60, 60, 60); 
+    border-radius: .5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.article-block a { 
+    color: #383838;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.article-block h6, .articles-row h6, .detail h6 { 
+    color: #0f8552;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1em;
+}
+
+.article-block .description { 
+    margin: 1em;
+}
+
+.articles-row, .detail .description {
+    color: rgb(197, 197, 197);
+}
+
+h2, h3 {
+    color: rgb(140, 140, 140);
+}
+
+body > div > div > div > ol > li { 
+    margin: 0 5px;
+    color: #fff;
+}
+
+
+.detail .description {
+    margin: 1em;
+}
